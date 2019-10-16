@@ -1,0 +1,49 @@
+.member-card {
+    display: flex;
+    padding: 1rem 1.5rem;
+	width: 400px;
+	height: 146px;
+	margin-bottom: 1.5rem !important;
+	box-sizing: border-box;
+}
+
+.member-card .avatar > img {
+    display: block;
+    width: 80px;
+    height: 80px;
+    border-radius: 50%;
+}
+
+.member-card > .profile {
+    margin-left: 1.5rem;
+}
+
+.member-card > .profile > .name {
+	font-size: 20px;
+	display: inline-block;
+}
+
+.member-card > .profile > .lead {
+	color: var(--color-warning);
+}
+
+.member-card > .profile > .tagline {
+	color: var(--color-gray-2);
+}
+
+
+
+
+.member-cards {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.member-cards::after {
+	content: "";
+	width: 400px;
+	padding: 0rem 1.5rem;
+	margin: 0px 4px;
+	height: 0px;
+}

@@ -1,27 +1,39 @@
 <!DOCTYPE html>
 <html lang="en-us">
+  <head>
+    <meta charset="UTF-8">
+    <title>{{ page.title | default: site.title }}</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta itemprop="description" name="description" content="{{ site.description }}">
+    <meta name="theme-color" content="#000">
+    
+    <link href="https://fonts.googleapis.com/css?family=Press+Start+2P" rel="stylesheet">
+    <link href="https://unpkg.com/nes.css/css/nes.min.css" rel="stylesheet" />
 
-<head>
-  <meta charset="UTF-8">
-  <title>{{ page.title | default: site.title }}</title>
-  <meta name="viewport" content="width=device-width, initial-scale=1">
-  <meta itemprop="description" name="description" content="Xcentrics: FTC Team 5143, from Xavier High School">
-  <meta name="theme-color" content="#157878">
+    <link href="/css/main.css" rel="stylesheet" />
   
-  <link href="https://fonts.googleapis.com/css?family=Press+Start+2P" rel="stylesheet">
-  <link href="https://unpkg.com/nes.css/css/nes.css" rel="stylesheet" />
+  </head>
+  <body>
+    <div class="centered">
+      <div id="site-title">{{ site.title }}</div>
+      <div id="site-subtitle">{{ site.subtitle }}</div>
+    </div>
+    
+    <br><br>
 
-  <style>
-    html, body, pre, code, kbd, samp {
-        font-family: "Press Start 2P";
-    }
-  </style>   
-</head>
+    <div id="nav" class="is-dark">
+      <a class="nav-item nes-btn is-primary" href="/">About</a>
+      <a class="nav-item nes-btn is-success" href="/awards">Awards</a>
+      <a class="nav-item nes-btn is-warning" href="/contact">Contact</a>
+      <a class="nav-item nes-btn is-error"   href="/resources">Resources</a>
+    </div>
 
-<body>
+    <br>
 
-    {{ content }}
+    <div id="page-content">
 
-</body>
+        {{ content }}
 
+    </div>
+  </body>
 </html>

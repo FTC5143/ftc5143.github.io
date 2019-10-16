@@ -1,4 +1,13 @@
-<center>
-  <h1>Xavier Xcentrics</h1>
-  <h2>FTC Team 5143</h2>
-</center>
+---
+layout: default
+title: About
+---
+
+<div class="nes-container with-title">
+  <p class="title">Progress Through Season</p>
+  <progress class="nes-progress is-primary" 
+    value="{{ site.time | date: '%s' | minus:site.data.season.starttime }}" 
+    max="{{ site.data.season.endtime | minus:site.data.season.starttime }}"
+  ></progress>
+
+</div>

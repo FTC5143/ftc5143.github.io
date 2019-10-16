@@ -1,0 +1,54 @@
+:root {
+  --color-warning: #f7d51d;
+  --color-gray-1: #555;
+  --color-gray-2: #aaa;
+}
+
+
+html, body, pre, code, kbd, samp {
+	font-family: "Press Start 2P";
+}
+
+#site-title {
+  font-size: 48px;
+  line-height: 64px;
+  user-select: none;
+}
+
+#site-subtitle {
+  font-size: 24px;
+  color: var(--color-gray-1);
+  user-select: none;
+}
+
+#nav {
+  text-align: center;
+  user-select: none;
+}
+
+.nav-item {
+  width: 168px;
+}
+
+#page-content {
+  width: 70%;
+  margin: 0 auto;
+  animation: fadein 0.2s;
+}
+
+.centered {
+  text-align: center;
+}
+
+progress[value]::-webkit-progress-value {
+  transition: width 0.5s;	
+}
+
+@keyframes fadein {
+  from { opacity: 0.3}
+  to   { opacity: 1}
+}
+
+.nes-icon-bootleg {
+  vertical-align: initial;
+}

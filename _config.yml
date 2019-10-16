@@ -1,1 +1,11 @@
-theme: jekyll-theme-cayman
+title: "Xavier Xcentrics"
+subtitle: "FTC Team 5143"
+
+description: "We are FTC Team 5143: The Xcentrics from Xavier High School in Cedar Rapids, Iowa"
+
+defaults:
+  -
+    scope:
+      path: ""
+    values:
+      layout: "default"

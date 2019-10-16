@@ -1,0 +1,115 @@
+- title: "Coches / Mentors"
+  members:
+    - name: "Stacy"
+      lead: true
+      title: "Coach"
+      social:
+        discord: "Mickel#2325"
+        email: "robotics@beasaint.org"
+    
+    - name: "Doug"
+      title: "Mentor"
+
+
+- title: "Hardware"
+  members:
+    - name: "Justin"
+      lead: true
+      year: 2021
+      social:
+        discord: "JK#2990"
+
+    - name: "Kadin"
+      year: 2022
+      social:
+        reddit: "kadin1013"
+        discord: "Gort#5801"
+
+    - name: "Fulton"
+      year: 2022
+      social:
+        reddit: "JFul42428"
+        discord: "Fulton3415#8358"
+
+    - name: "Greg"
+      year: 2022
+      social:
+        reddit: "Grego160"
+        discord: "freaky fingers#1039"
+
+    - name: "Will"
+      year: 2023
+      social:
+        github: "doggo-ftc"
+        discord: "AussieDog1#6062"
+
+    - name: "Jackson"
+      year: 2021
+      social:
+        discord: "VotiveZues#5158"
+
+- title: "Software"
+  members:
+    - name: "Isaac"
+      lead: true
+      year: 2022
+      social:
+        email: "qwertytrogi@gmail.com"
+        github: "qwertyquerty"
+        reddit: "qwerty_trogi"
+        discord: "qwerty#6768"
+    
+    - name: "Brian"
+      year: 2023
+      social:
+        github: "EntropyProducer"
+        discord: "not spooky#6177"
+    
+    - name: "Sarah"
+      year: 2023
+
+- title: "Outreach"
+  members:
+    - name: "Joanne"
+      lead: true
+      year: 2021
+      social:
+        discord: "c u r s e d#9592"
+    
+    - name: "John"
+      year: 2022
+      social:
+        github: "InternetDweller"
+        discord: "Dweller#7727"
+  
+    - name: "Megan"
+      year: 2020
+      social:
+        discord: "it’s_me_megan#8706"
+
+    - name: "Max"
+      year: 2022
+      social:
+        discord: "spooky lays#5934"
+    
+    - name: "Ava"
+      year: 2022
+      social:
+        reddit: "slavictankie"
+        discord: "soso#1917"
+
+    - name: "Carson"
+      year: 2022
+      social:
+        discord: "TinnierMage#0628"
+
+- title: "Business"
+  members:
+    - name: "Abby"
+      lead: true
+      year: 2020
+    
+    - name: "Jeffrey"
+      year: 2022
+      social:
+        discord: "Pilot404#0001"
