@@ -10,6 +10,17 @@
     <link href="https://fonts.googleapis.com/css?family=Press+Start+2P" rel="stylesheet">
     <link href="https://unpkg.com/nes.css/css/nes.min.css" rel="stylesheet" />
 
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/dialog-polyfill/0.5.0/dialog-polyfill.min.css" rel="stylesheet" />
+    
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/dialog-polyfill/0.5.0/dialog-polyfill.min.js"></script>
+    <script>
+      $(document).ready(function() {
+        var dialog = document.querySelector('dialog');
+        dialogPolyfill.registerDialog(dialog);
+      });
+    </script>
+
     <link href="/css/main.css" rel="stylesheet" />
   
   </head>
