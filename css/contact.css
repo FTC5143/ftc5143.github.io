@@ -24,7 +24,7 @@
 }
 
 .member-card > .profile > .lead {
-	color: var(--color-white);
+	color: var(--color-warning);
 }
 
 .member-card > .profile > .tagline {
