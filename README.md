@@ -1,4 +1,4 @@
-# Welcome to the Repo of the Offical FTC 5143 Website
+# Welcome to the repo of the offical FTC 5143 website
 you can find it here: https://ftc5143.github.io/contact <br>
 
 
