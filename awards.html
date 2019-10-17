@@ -2,3 +2,18 @@
 layout: default
 title: Awards
 ---
+
+{% for season in site.data.awards %}
+	<div class="nes-container with-title">
+		<p class="title">{{ season.title }}</p>
+		<div class="award-cards">
+		{% for award in season.awards %}
+			<div>
+				<section class="nes-container award-card">
+				</section>
+			</div>
+		{% endfor %}
+		</div>
+	</div>
+	<br>
+{% endfor %}

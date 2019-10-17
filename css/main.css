@@ -5,6 +5,10 @@
   --color-white: #fff;
 }
 
+* {
+  font-smooth: never;
+}
+
 
 html, body, pre, code, kbd, samp {
 	font-family: "Press Start 2P";
@@ -52,4 +56,23 @@ progress[value]::-webkit-progress-value {
 
 .nes-icon-bootleg {
   vertical-align: initial;
+}
+
+
+
+
+::-webkit-scrollbar {
+  width: 8px;
+}
+
+::-webkit-scrollbar-track {
+  background: var(--color-gray-2);
+}
+
+::-webkit-scrollbar-thumb {
+  background: #000; 
+}
+
+::-webkit-scrollbar-thumb:hover {
+  background: #000; 
 }
