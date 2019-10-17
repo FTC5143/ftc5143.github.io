@@ -46,7 +46,7 @@ html, body, pre, code, kbd, samp {
 }
 
 progress[value]::-webkit-progress-value {
-  transition: width 0.5s;	
+  transition: width 0.4s;	
 }
 
 @keyframes fadein {
