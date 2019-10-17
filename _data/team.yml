@@ -67,6 +67,8 @@
     
     - name: "Sarah"
       year: 2023
+      social:
+      discord: "sarah.feller#0797"
 
 - title: "Outreach"
   members:
