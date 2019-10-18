@@ -1,5 +1,46 @@
 - title: "Skystone"
+# TO BE EXPANDED :^)
+
 - title: "Rover Ruckus"
+  awards:
+    - title: "Winning Alliance"
+      competition: "State Championship"
+      location: "Coralville, Iowa"
+
+    - title: "Finalist Alliance"
+      competition: "Super Qualifier"
+      location: "Johnston, Iowa"
+
+    - title: "Motivate Award"
+      competition: "Super Qualifier"
+      location: "Johnston, Iowa"
+
+    - title: "Finalist Alliance"
+      competition: "League Tournament"
+      location: "Denver, Iowa"
+
+    - title: "Motivate Award"
+      competition: "League Tournament"
+      location: "Denver, Iowa"
+
 - title: "Relic Recovery"
+  awards:
+    - title: "Finalist Alliance"
+      competition: "League Tournament"
+      location: "Denver, Iowa"
+
 - title: "Velocity Vortex"
-- title: "Cascade Effect"
+  awards:
+    - title: "Winning Alliance"
+      competition: "League Tournament"
+      location: "Marion, Iowa"
+    
+    - title: "Control Award"
+      competition: "League Tournament"
+      location: "Martion, Iowa"
+
+- title: "Ring it Up"
+  awards:
+    - title: "Winning Alliance"
+      competition: "Solon Qualifier"
+      location: "Solon, Iowa"
