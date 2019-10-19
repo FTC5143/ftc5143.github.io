@@ -3,17 +3,27 @@ layout: default
 title: Awards
 ---
 
+<link href="/css/awards.css" rel="stylesheet" />
+
 {% for season in site.data.awards %}
-	<div class="nes-container with-title">
-		<p class="title">{{ season.title }}</p>
-		<div class="award-cards">
-		{% for award in season.awards %}
-			<div>
-				<section class="nes-container award-card">
-				</section>
+	{% if season.awards %}
+		<div class="nes-container with-title">
+			<p class="title">{{ season.title }}</p>
+			<div class="award-cards">
+			{% for award in season.awards %}
+				<div>
+					<section class="nes-container award-card is-dark">
+							<div class="avatar"><i class="nes-icon trophy is-large"></i></div>
+							<div class="profile">
+								<div class="name">{{ award.title }}</div>
+								<div class="tagline">{{ award.competition }}</div>
+								<div class="tagline">{{ award.location }}</div>
+							</div>
+					</section>
+				</div>
+			{% endfor %}
 			</div>
-		{% endfor %}
 		</div>
-	</div>
-	<br>
+		<br>
+	{% endif %}
 {% endfor %}
