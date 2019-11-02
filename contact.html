@@ -7,12 +7,12 @@ title: Contact
 
 <div class="nes-container with-title is-centered">
 	<p class="title">Contact Us!</p>
-	<a href="{{ site.data.contact.email }}" target="_blank" aria-label="email"><i class="nes-icon is-large gmail"></i></a>
-	<a href="{{ site.data.contact.twitter }}" target="_blank" aria-label="twitter"><i class="nes-icon is-large twitter"></i></a>
-	<a href="{{ site.data.contact.github }}" target="_blank" aria-label="github"><i class="nes-icon is-large github"></i></a>
-	<a href="{{ site.data.contact.youtube }}" target="_blank" aria-label="youtube"><i class="nes-icon is-large youtube"></i></a>
-	<a href="{{ site.data.contact.toa }}" target="_blank" aria-label="toa"><i class="nes-icon is-large star"></i></a>
-	<a href="{{ site.data.contact.discord }}" target="_blank" aria-label="discord"><img class="nes-icon is-large discord nes-icon-bootleg" src="https://rawcdn.githack.com/nostalgic-css/NES.icons/5b9fed6df6035b7f83cb83d4627630c3ee065f96/icons/discord.svg"></a>
+	<a href="{{ site.data.contact.email }}" target="_blank" aria-label="email"><img src="/img/icons/gmail.png" class="icon is-large"></a>
+	<a href="{{ site.data.contact.twitter }}" target="_blank" aria-label="twitter"><img src="/img/icons/twitter.png" class="icon is-large"></a>
+	<a href="{{ site.data.contact.github }}" target="_blank" aria-label="github"><img src="/img/icons/github.png" class="icon is-large"></a>
+	<a href="{{ site.data.contact.youtube }}" target="_blank" aria-label="youtube"><img src="/img/icons/youtube.png" class="icon is-large"></a>
+	<a href="{{ site.data.contact.toa }}" target="_blank" aria-label="toa"><img src="/img/icons/trophy.png" class="icon is-large"></a>
+	<a href="{{ site.data.contact.discord }}" target="_blank" aria-label="discord"><img src="/img/icons/discord.png" class="icon is-large"></a>
 </div>
 <br>
 {% for department in site.data.team %}
@@ -40,10 +40,10 @@ title: Contact
 							{% endif %}
 						</p>
 						<div class="social">
-							{% if member.social.email %}<a href="mailto:{{ member.social.email }}" target="_blank" aria-label="email"><i class="nes-icon gmail"></i></a>{% endif %}
-							{% if member.social.github %}<a href="https://github.com/{{ member.social.github }}" target="_blank" aria-label="github"><i class="nes-icon github"></i></a>{% endif %}
-							{% if member.social.reddit %}<a href="https://www.reddit.com/user/{{ member.social.reddit }}" target="_blank" aria-label="reddit"><i class="nes-icon reddit"></i></a>{% endif %}
-							{% if member.social.discord %}<a onclick="document.getElementById('contact-discord-modal-{{ member.social.discord }}').showModal();" target="_blank" aria-label="discord"><img class="nes-icon discord nes-icon-bootleg" src="https://rawcdn.githack.com/nostalgic-css/NES.icons/5b9fed6df6035b7f83cb83d4627630c3ee065f96/icons/discord.svg"></a>{% endif %}
+							{% if member.social.email %}<a href="mailto:{{ member.social.email }}" target="_blank" aria-label="email"><img src="/img/icons/gmail.png" class="icon is-small"></img></a>{% endif %}
+							{% if member.social.github %}<a href="https://github.com/{{ member.social.github }}" target="_blank" aria-label="github"><img src="/img/icons/github.png" class="icon is-small"></a>{% endif %}
+							{% if member.social.reddit %}<a href="https://www.reddit.com/user/{{ member.social.reddit }}" target="_blank" aria-label="reddit"><img src="/img/icons/reddit.png" class="icon is-small"></a>{% endif %}
+							{% if member.social.discord %}<a onclick="document.getElementById('contact-discord-modal-{{ member.social.discord }}').showModal();" target="_blank" aria-label="discord"><img src="/img/icons/discord.png" class="icon is-small"></a>{% endif %}
 						</div>
 					</div>
 				</section>
