@@ -10,6 +10,10 @@
     - name: "Doug"
       title: "Mentor"
 
+    - name: "Jim"
+      title: "Mentor"
+      social:
+        email: "jkaas@ifpusa.com"
 
 - title: "Hardware"
   members:
