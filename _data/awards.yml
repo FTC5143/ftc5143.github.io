@@ -1,5 +1,12 @@
 - title: "Skystone"
-# TO BE EXPANDED :^)
+  awards:
+    - title: "Winning Alliance"
+      competition: "League Tournament"
+      location: "Marion, Iowa"
+
+    - title: "Inspire Award"
+      competition: "League Tournament"
+      location: "Marion, Iowa"
 
 - title: "Rover Ruckus"
   awards:
