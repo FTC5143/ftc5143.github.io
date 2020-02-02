@@ -4,9 +4,10 @@
       competition: "Super Qualifier"
       location: "Waverly, Iowa"
 
-    - title: "Think Award Finalist"
+    - title: "Think Award"
       competition: "Super Qualifier"
       location: "Waverly, Iowa"
+      finalist: true
 
     - title: "Winning Alliance"
       competition: "League Tournament"
