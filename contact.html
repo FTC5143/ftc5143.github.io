@@ -31,10 +31,10 @@ title: Contact
 							{% if member.year %}
 								{% assign year = site.time | date: '%Y' %}
 								{% assign year = member.year | minus:year %}
-								{% if year == 4 %}Freshman{% endif %}
-								{% if year == 3 %}Sophomore{% endif %}
-								{% if year == 2 %}Junior{% endif %}
-								{% if year == 1 %}Senior{% endif %}
+								{% if year == 3 %}Freshman{% endif %}
+								{% if year == 2 %}Sophomore{% endif %}
+								{% if year == 1 %}Junior{% endif %}
+								{% if year == 0 %}Senior{% endif %}
 							{% else if member.title %}
 								{{ member.title }}
 							{% endif %}
