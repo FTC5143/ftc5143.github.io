@@ -87,11 +87,6 @@
       social:
         github: "InternetDweller"
         discord: "Dweller#7727"
-  
-    - name: "Megan"
-      year: 2020
-      social:
-        discord: "it’s_me_megan#8706"
 
     - name: "Max"
       year: 2022
@@ -111,11 +106,8 @@
 
 - title: "Business"
   members:
-    - name: "Abby"
-      lead: true
-      year: 2020
-    
     - name: "Jeffrey"
+      lead: true
       year: 2022
       social:
         discord: "Pilot404#0001"
