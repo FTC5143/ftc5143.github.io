@@ -1,3 +1,13 @@
+- title: "Ultimate Goal"
+  awards:
+    - title: "Innovate Award"
+      competition: "League Tournament"
+      location: "Virtual"
+  
+    - title: "Highest Ranked Robot"
+      competition: "League Tournament"
+      location: "Virtual"
+
 - title: "Skystone"
   awards:
     - title: "Control Award"
