@@ -1,12 +1,20 @@
 - title: "Ultimate Goal"
   awards:
+    - title: "Control Award"
+      competition: "Superqualifier"
+      location: "Virtual (Dewitt)"
+  
+    - title: "Highest Ranked"
+      competition: "Superqualifier"
+      location: "Virtual (Dewitt)"
+
     - title: "Innovate Award"
       competition: "League Tournament"
-      location: "Virtual"
+      location: "Virtual (Marion)"
   
     - title: "Highest Ranked"
       competition: "League Tournament"
-      location: "Virtual"
+      location: "Virtual (Marion)"
 
 - title: "Skystone"
   awards:
