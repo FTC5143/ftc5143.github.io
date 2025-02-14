@@ -1,119 +1,94 @@
 - title: "Coaches / Mentors"
   members:
-    - name: "Stacy"
+    - name: "Kathy G"
       lead: true
       title: "Coach"
       social:
-        discord: "Mickel#2325"
-        email: "robotics@beasaint.org"
+        discord: "kgeers3"
+        email: "kathy.geers@crxcs.org"
     
-    - name: "Doug"
-      title: "Mentor"
+    - name: "Nathan H"
+      title: "Coach"
+      social:
+        discord: "vavyo"
+        email: "NHall2121@gmail.com"
 
-    - name: "Jim"
+    - name: "Scott C"
       title: "Mentor"
       social:
-        email: "jkaas@ifpusa.com"
+        discord: "conrsd"
+
+    - name: "Francis G"
+      title: "Mentor"
+      social:
+        discord: "fginther"
+
+    - name: "Scott S"
+      title: "Mentor"
+
+    - name: "Isaac S"
+      title: "Mentor"
+      social:
+        discord: "qwertyqwerty"
+
+    - name: "JJ K"
+      title: "Mentor"
+      social:
+        discord: "exentity"
+      
 
 - title: "Hardware"
   members:
-    - name: "Justin"
+    - name: "Rob"
       lead: true
-      year: 2021
+      year: 2025
       social:
-        discord: "JK#2990"
+        discord: "dumbusernam3"
 
-    - name: "Kadin"
-      year: 2022
+    - name: "Aaron"
+      year: 2025
       social:
-        reddit: "kadin1013"
-        discord: "Kadin1013#4844"
+        discord: "ronstable."
 
-    - name: "Greg"
-      year: 2022
+    - name: "Alex"
+      year: 2025
       social:
-        reddit: "Grego160"
-        discord: "freaky fingers#6495"
+        discord: "arsebiscuit"
 
-    - name: "Jackson"
-      year: 2021
+    - name: "Nick"
+      year: 2027
       social:
-        discord: "VotiveZues#5158"
-
-    - name: "Fulton"
-      year: 2022
-      social:
-        reddit: "JFul42428"
-        discord: "Fulton3415#8358"
-
-    - name: "Gilbert"
-      year: 2024
-      social:
-        discord: "gilbertgamertg#7545"
-
-    - name: "Andrew"
-      year: 2024
-      social:
-        discord: "Gobarium#1436"
-
-    - name: "Bennet"
-      year: 2024
-      social:
-        discord: "TheCure#4477"
-
-    - name: "Ethan"
-      year: 2024
-      social:
-        discord: "Friendly Death#1134"
-
-    - name: "Joe"
-      year: 2024
-      social:
-        discord: "Mettenburg#7123"
+        discord: "nickm01103"
 
 - title: "Software"
   members:
-    - name: "Isaac"
+    - name: "Kaeden"
       lead: true
-      year: 2022
+      year: 2025
       social:
-        email: "qwertytrogi@gmail.com"
-        github: "qwertyquerty"
-        reddit: "qwerty_trogi"
-        discord: "qwerty#6768"
-    
-    - name: "Brian"
-      year: 2023
-      social:
-        github: "EntropyProducer"
-        discord: "ihavetinsel#6177"
+        email: "robotics@crxcs.org"
+        github: "RoboCat79"
+        discord: "keeperofstuff_"
 
-    - name: "Will"
-      year: 2023
+    - name: "Leo"
+      year: 2027
       social:
-        github: "doggo-ftc"
-        discord: "Aussie#6500"
+        discord: "bump_leo"
 
-- title: "Outreach"
+- title: "Outreach / Marketing"
   members:
-    - name: "Joanne"
+    - name: "Sophia"
       lead: true
-      year: 2021
+      year: 2026
       social:
-        discord: "c u r s e d#9592"
+        discord: "pickledpapayas"
 
-    - name: "Sarah"
-      year: 2023
+    - name: "Ren"
+      year: 2025
       social:
-        discord: "sarah.feller#0797"
+        discord: "s0apy_capr1sun"
 
-    - name: "Bryton"
-      year: 2024
+    - name: "Marlowe"
+      year: 2027
       social:
-        discord: "Bryton#1918"
-
-    - name: "Jeffrey"
-      lead: true
-      year: 2022
-      social:
-        discord: "Exentity#1045"
+        discord: "captina_tigre"
