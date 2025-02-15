@@ -7,9 +7,9 @@
 }
 
 .collage-image {
-  width: auto; /* Adjust the size as needed */
-  height: 100% /* Set height to 100% of the container */
-  max-height: 50px; /* Maintain aspect ratio */
+  flex: 0 1 30%; /* Make each image take up 30% of the container width */
+  max-width: 120px; /* Set a maximum width if desired */
+  height: auto; /* Let height adjust based on aspect ratio */
   object-fit: cover; /* Ensures the images fill the space without distortion */
   border-radius: 8px; /* Optional: Add rounded corners */
   box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
@@ -19,4 +19,16 @@
 .collage-image:hover {
   transform: scale(1.1); /* Zoom in effect */
   box-shadow: 0 6px 12px rgba(0, 0, 0, 0.3); /* Enhance shadow on hover */
+}
+
+@media (max-width: 768px) {
+  .collage-image {
+    flex: 0 1 45%; /* Make each image take up 45% of the container */
+  }
+}
+
+@media (max-width: 480px) {
+  .collage-image {
+    flex: 0 1 100%; /* Stack images vertically on very small screens */
+  }
 }

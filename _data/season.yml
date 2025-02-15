@@ -1,3 +1,2 @@
-season:
-  starttime: 1599930000  # Unix timestamp for the season start
-  endtime: 1602522000    # Unix timestamp for the season end
+starttime: 1599930000  # Unix timestamp for the season start
+endtime: 1602522000    # Unix timestamp for the season end

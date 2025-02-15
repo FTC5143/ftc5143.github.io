@@ -27,8 +27,8 @@ title: About
 <div class="nes-container with-title">
   <p class="title">Progress Through Season</p>
   <progress id="season-progress" class="animated-progress nes-progress is-primary"
-            max="{{ site.data.season.endtime | minus:site.data.season.starttime }}"
-            value="{{ site.time | date: '%s' | minus:site.data.season.starttime }}">
+            max="{{ site.data.season.endtime | minus: site.data.season.starttime }}"
+            value="{{ site.time | date: '%s' | minus: site.data.season.starttime }}">
   </progress>
 </div>
 
