@@ -22,7 +22,7 @@ title: Contact
 		{% for member in department.members %}
 			<div>
 				<section class="nes-container is-dark member-card">
-					<div class="avatar"><img src="https://mobilityoi.org/wp-content/uploads/2015/06/Avatar-No-Photo-generic-300x300.jpg"></div>
+					<div class="avatar"><img src="{{ member.pfp | default: '/img/icons/team.jpg' }}" alt="{{ member.name }}"></div>
 					<div class="profile">
 						<div class="name {% if member.lead %}lead{% endif %}">
 							{{ member.name }}

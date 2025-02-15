@@ -40,10 +40,12 @@
 - title: "Hardware"
   members:
     - name: "Rob"
+      pfp: "/img/team/rob.png"
       lead: true
       year: 2025
       social:
         discord: "dumbusernam3"
+        email: "robwelch448@gmail.com"
 
     - name: "Aaron"
       year: 2025
@@ -63,6 +65,7 @@
 - title: "Software"
   members:
     - name: "Kaeden"
+      pfp: "/img/team/kaeden.JPG"
       lead: true
       year: 2025
       social:
