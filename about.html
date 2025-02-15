@@ -26,7 +26,6 @@ title: About
 
 <div class="nes-container with-title">
   <h2 class="title">Progress Through Season</h2>
-  <p>Current Time: {{ site.time | date: '%s' }}</p>
   <progress id="season-progress" class="animated-progress nes-progress is-primary"
             max="{{ site.data.season.endtime | minus: site.data.season.starttime }}"
             value="{{ site.time | date: '%s' | minus: site.data.season.starttime }}">
