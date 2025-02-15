@@ -11,7 +11,7 @@
       title: "Coach"
       social:
         discord: "vavyo"
-        email: "NHall2121@gmail.com"
+        email: "nhall2121@gmail.com"
 
     - name: "Scott C"
       title: "Mentor"
@@ -30,12 +30,6 @@
       title: "Mentor"
       social:
         discord: "qwertyqwerty"
-
-    - name: "JJ K"
-      title: "Mentor"
-      social:
-        discord: "exentity"
-      
 
 - title: "Hardware"
   members:
