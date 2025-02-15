@@ -1,3 +1,49 @@
+- title: "Into the Deep"
+  awards:
+    - title: "Innovate Award"
+      competition: "League Tournament"
+      location: "Cedar Rapids, Iowa"
+
+- title: "Center Stage"
+  awards:
+    - title: "Think Award"
+      competition: "League Tournament"
+      location: "Cedar Rapids, Iowa"
+
+- title: "Power Play"
+  awards:
+    - title: "Innovate Award"
+      competition: "Superqualifier"
+      location: "Bettendorf, Iowa"
+      finalist: true
+
+    - title: "Winning Alliance"
+      competition: "Superqualifier"
+      location: "Bettendorf, Iowa"
+
+    - title: "Winning Alliance"
+      competition: "League Tournament"
+      location: "Clear Creek Amana"
+
+- title: "Freight Frenzy"
+  awards:
+    - title: "Control Award"
+      competition: "Iowa Championship"
+      location: "Coralville, Iowa"
+
+    - title: "Control Award"
+      competition: "Superqualifier"
+      location: "Pleasent Valley, Iowa"
+      finalist: true
+  
+    - title: "Design Award"
+      competition: "League Tournament"
+      location: "Clear Creek Amana, Iowa"
+
+  - title: "Finalist Alliance"
+      competition: "League Tournament"
+      location: "Clear Creek Amana, Iowa"
+      
 - title: "Ultimate Goal"
   awards:
     - title: "Control Award"
