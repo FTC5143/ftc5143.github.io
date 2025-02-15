@@ -1,0 +1,20 @@
+/* Styling for the image collage */
+.image-collage {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 10px; /* Space between the images */
+  justify-content: center;
+}
+
+.collage-image {
+  width: 150px; /* Adjust the size as needed */
+  height: 150px; /* Maintain aspect ratio */
+  object-fit: cover; /* Ensures the images fill the space without distortion */
+  border-radius: 10px; /* Optional: Add rounded corners */
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Optional: Adds a subtle shadow */
+  transition: transform 0.3s ease-in-out; /* Optional: Smooth zoom effect on hover */
+}
+
+.collage-image:hover {
+  transform: scale(1.05); /* Optional: Zoom effect on hover */
+}

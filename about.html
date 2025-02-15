@@ -1,0 +1,43 @@
+---
+layout: default
+title: About
+---
+
+<div class="nes-container with-title">
+  <p class="title">About Our Team</p>
+  <h2>Our Mission</h2>
+  <p></p>
+  <h2>Team Leads</h2>
+  <p>We are FTC Team 5143: The Xcentrics from Xavier High School in Cedar Rapids, Iowa</p>
+  <h2>Our Values</h2>
+  <p>Collaboration, creativity, and commitment are at the core of our team's values. We work together to achieve our shared goals and believe in the power of diversity and inclusion.</p>
+</div>
+
+<br>
+
+<div class="nes-container with-title">
+  <p class="title">Progress Through Season</p>
+  <progress id="season-progress" class="animated-progress nes-progress is-primary" 
+    max="{{ site.data.season.endtime | minus:site.data.season.starttime }}"
+    value="{{ site.time | date: '%s' | minus:site.data.season.starttime }}"
+  ></progress>
+
+</div>
+
+<br>
+
+<div class="nes-container with-title">
+  <p class="title">Our Robot</p>
+
+  <div class="image-collage">
+    <img src="/img/robot/BORIS_B&W.jpg" alt="BORIS" class="collage-image">
+  </div>
+
+
+</div>
+
+
+<script>
+
+
+</script>
