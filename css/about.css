@@ -7,14 +7,15 @@
 }
 
 .collage-image {
-  width: 150px; /* Adjust the size as needed */
-  height: 150px; /* Maintain aspect ratio */
+  width: 50px; /* Adjust the size as needed */
+  height: 50px; /* Maintain aspect ratio */
   object-fit: cover; /* Ensures the images fill the space without distortion */
-  border-radius: 10px; /* Optional: Add rounded corners */
-  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Optional: Adds a subtle shadow */
-  transition: transform 0.3s ease-in-out; /* Optional: Smooth zoom effect on hover */
+  border-radius: 8px; /* Optional: Add rounded corners */
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  transition: transform 0.3s ease, box-shadow 0.3s ease; /* Smooth transition for zoom and shadow */
 }
 
 .collage-image:hover {
-  transform: scale(1.05); /* Optional: Zoom effect on hover */
+  transform: scale(1.1); /* Zoom in effect */
+  box-shadow: 0 6px 12px rgba(0, 0, 0, 0.3); /* Enhance shadow on hover */
 }
