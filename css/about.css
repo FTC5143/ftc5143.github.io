@@ -9,7 +9,7 @@
 .collage-image {
   flex: 1 1 calc(33.33% - 10px); /* Ensure each image takes up about 1/3 of the container width */
   max-width: 300px; /* Allow images to grow, but set a reasonable max-width */
-  height: auto; /* Maintain aspect ratio */
+  height: 300px; /* Maintain aspect ratio */
   object-fit: cover; /* Ensure images fill the space without distortion */
   border-radius: 8px; /* Optional: Add rounded corners */
   box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
