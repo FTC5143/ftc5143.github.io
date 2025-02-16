@@ -6,7 +6,7 @@
   justify-content: center;
 }
 
-.image-collage .collage-image {
+.collage-image {
   max-width: 100px; /* Set a maximum width if desired */
   height: auto; /* Let height adjust based on aspect ratio */
   flex: 0 1 30%; /* Make each image take up 30% of the container width */
@@ -16,7 +16,7 @@
   transition: transform 0.3s ease, box-shadow 0.3s ease; /* Smooth transition for zoom and shadow */
 }
 
-.image-collage .collage-image:hover {
+.collage-image:hover {
   transform: scale(1.1); /* Zoom in effect */
   box-shadow: 0 6px 12px rgba(0, 0, 0, 0.3); /* Enhance shadow on hover */
 }
