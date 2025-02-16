@@ -40,7 +40,7 @@ title: Contact
 							{% endif %}
 						</p>
 						<div class="social">
-							{% if member.social.email %}<a href="mailto:{{ member.social.email }}" target="_blank" aria-label="email"><img src="/img/icons/gmail.png" class="icon is-small"></img></a>{% endif %}
+							{% if member.social.email %}<a href="mailto:{{ member.social.email }}" target="_blank" aria-label="email"><img src="/img/icons/gmail.png" class="icon is-small"></a>{% endif %}
 							{% if member.social.github %}<a href="https://github.com/{{ member.social.github }}" target="_blank" aria-label="github"><img src="/img/icons/github.png" class="icon is-small"></a>{% endif %}
 							{% if member.social.reddit %}<a href="https://www.reddit.com/user/{{ member.social.reddit }}" target="_blank" aria-label="reddit"><img src="/img/icons/reddit.png" class="icon is-small"></a>{% endif %}
 							{% if member.social.discord %}<a onclick="document.getElementById('contact-discord-modal-{{ member.social.discord }}').showModal();" target="_blank" aria-label="discord"><img src="/img/icons/discord.png" class="icon is-small"></a>{% endif %}
