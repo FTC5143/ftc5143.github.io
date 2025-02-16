@@ -1,4 +1,4 @@
-- title: "Coaches"
+- title: "Coaches / Mentors"
   members:
     - name: "Kathy G"
       lead: true
@@ -13,8 +13,6 @@
         discord: "vavyo"
         email: "nhall2121@gmail.com"
 
-- title: "Mentors"
-  members:
     - name: "Scott C"
       title: "Mentor"
       social:
@@ -58,11 +56,6 @@
       social:
         discord: "nickm01103"
 
-    - name: "Leo"
-      year: 2027
-      social:
-        discord: "bump_leo"
-
 - title: "Software"
   members:
     - name: "Kaeden"
@@ -73,6 +66,11 @@
         email: "robotics@crxcs.org"
         github: "RoboCat79"
         discord: "keeperofstuff_"
+
+    - name: "Leo"
+      year: 2027
+      social:
+        discord: "bump_leo"
 
 - title: "Outreach / Marketing"
   members:
