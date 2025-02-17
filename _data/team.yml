@@ -3,71 +3,78 @@
     - name: "Kathy G"
       lead: true
       title: "Coach"
+      pfp: "/img/team/kathyG.png"
       social:
         discord: "kgeers3"
         email: "kathy.geers@crxcs.org"
     
     - name: "Nathan H"
       title: "Coach"
+      pfp: "/img/team/nathanH.png"
       social:
         discord: "vavyo"
         email: "nhall2121@gmail.com"
 
     - name: "Scott C"
       title: "Mentor"
+      pfp: "/img/team/scottC.png"
       social:
         discord: "conrsd"
 
     - name: "Francis G"
       title: "Mentor"
-      pfp: "/img/team/francis.png"
+      pfp: "/img/team/francisG.png"
       social:
         discord: "fginther"
 
     - name: "Scott S"
       title: "Mentor"
+      pfp: "/img/team/scottS.png"
 
     - name: "Isaac S"
       title: "Mentor"
-      pfp: "/img/team/isaac.png"
+      pfp: "/img/team/isaacS.png"
       social:
         discord: "qwertyqwerty"
 
 - title: "Hardware"
   members:
-    - name: "Rob"
-      pfp: "/img/team/rob.png"
+    - name: "Rob W"
+      pfp: "/img/team/robW.png"
       lead: true
       year: 2025
       social:
         discord: "dumbusernam3"
         email: "robwelch448@gmail.com"
 
-    - name: "Aaron"
-      pfp: "/img/team/aaron.png"
+    - name: "Aaron S"
+      pfp: "/img/team/aaronS.png"
       year: 2025
       social:
         discord: "ronstable."
 
-    - name: "Alex"
+    - name: "Alex C"
+      pfp: "/img/team/alexC.png"
       year: 2025
       social:
         discord: "arsebiscuit"
 
-    - name: "Nick"
+    - name: "Nick M"
+      pfp: "/img/team/nickM.png"
       year: 2027
       social:
         discord: "nickm01103"
 
-    - name: "Leo"
+    - name: "Leo W"
+      pfp: "/img/team/leoW.png"
       year: 2027
       social:
         discord: "bump_leo"
 
 - title: "Software"
   members:
-    - name: "Kaeden"
-      pfp: "/img/team/kaeden.JPG"
+    - name: "Kaeden G"
+      pfp: "/img/team/kaedenG.JPG"
       lead: true
       year: 2025
       social:
@@ -77,14 +84,15 @@
 
 - title: "Outreach / Marketing"
   members:
-    - name: "Sophia"
+    - name: "Sophia S"
+      pfp: "/img/team/sophiaS.png"
       lead: true
       year: 2026
       social:
         discord: "pickledpapayas"
 
-    - name: "Marlowe"
-      pfp: "/img/team/marlowe.png"
+    - name: "Marlowe G"
+      pfp: "/img/team/marloweG.png"
       year: 2027
       social:
         discord: "captina_tigre"
