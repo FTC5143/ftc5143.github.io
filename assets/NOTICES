@@ -6000,7 +6000,6 @@ path_provider_windows
 plugin_platform_interface
 url_launcher
 url_launcher_platform_interface
-video_player_web
 xdg_directories
 
 Copyright 2013 The Flutter Authors. All rights reserved.
@@ -11266,10 +11265,6 @@ url_launcher_ios
 url_launcher_linux
 url_launcher_macos
 url_launcher_windows
-video_player
-video_player_android
-video_player_avfoundation
-video_player_platform_interface
 
 Copyright 2013 The Flutter Authors
 
