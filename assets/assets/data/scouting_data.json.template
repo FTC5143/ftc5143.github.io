@@ -1,0 +1,50 @@
+{
+  "autoDescription": "EDIT THIS: Describe your autonomous routine here. Include starting position, key actions, and reliability notes.",
+  "autoVideos": [
+    {
+      "name": "Close Red",
+      "path": "assets/videos/auto_close_red.mp4"
+    },
+    {
+      "name": "Close Blue",
+      "path": "assets/videos/close_blue.mp4"
+    },
+    {
+      "name": "Far Red",
+      "path": "assets/videos/auto_far_red.mp4"
+    },
+    {
+      "name": "Far Blue",
+      "path": "assets/videos/auto_far_blue.mp4"
+    }
+  ],
+  "defaultVideo": "Close Blue",
+  "teleopStats": [
+    {
+      "label": "Matches Played",
+      "value": "0"
+    },
+    {
+      "label": "Avg Cycles",
+      "value": "0"
+    },
+    {
+      "label": "High Goals",
+      "value": "0"
+    },
+    {
+      "label": "Low Goals",
+      "value": "0"
+    },
+    {
+      "label": "Penalties",
+      "value": "0"
+    },
+    {
+      "label": "Avg Match Score",
+      "value": "0"
+    }
+  ],
+  "lastUpdated": "2026-02-20T14:30:00Z"
+}
+

@@ -1,0 +1,46 @@
+{
+  "autoDescription": "Starting position: Center stage. The robot drives forward to score in the high goal, then backs up and collects a second piece before returning to score. Reliable 2-point auto sequence.",
+  "autoVideos": [
+    {
+      "name": "Close Red",
+      "path": "assets/videos/auto_close_red.mp4"
+    },
+    {
+      "name": "Close Blue",
+      "path": "assets/videos/close_blue.mp4"
+    },
+    {
+      "name": "Far Red",
+      "path": "assets/videos/auto_far_red.mp4"
+    },
+    {
+      "name": "Far Blue",
+      "path": "assets/videos/auto_far_blue.mp4"
+    }
+  ],
+  "defaultVideo": "Close Blue",
+  "teleopStats": [
+    {
+      "label": "Avg Cycles",
+      "value": "7.4"
+    },
+    {
+      "label": "High Goals",
+      "value": "28"
+    },
+    {
+      "label": "Low Goals",
+      "value": "12"
+    },
+    {
+      "label": "Penalties",
+      "value": "2"
+    },
+    {
+      "label": "Avg Match Score",
+      "value": "94.5"
+    }
+  ],
+  "lastUpdated": "2026-02-20T14:30:00Z"
+}
+
